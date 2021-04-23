@@ -23,3 +23,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a sentryAlert.sh
         run: sh sentryAlert.sh
+        
+      - name: install request
+        run: npm i request
+
+      - name: send
+        run: node articleAlert.js
