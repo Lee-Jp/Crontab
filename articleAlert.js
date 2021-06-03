@@ -58,7 +58,7 @@ function getList() {
           content: `${i.article_info.brief_content}`,
         }));
         resData.feedCard.links = article;
-        send();
+//         send();  // 注释掉这里，就不会每天定时发布了
       }
     }
   );
